@@ -1,0 +1,47 @@
+.background    { background: linear-gradient(to bottom, rgba(63,76,107,1) 0%,rgba(63,76,107,1) 0%,rgba(63,76,107,1) 0%,rgba(49,40,56,1) 1%,rgba(63,76,107,1) 18%,rgba(63,76,107,1) 18%,rgba(100,147,209,1) 99%,rgba(100,147,209,1) 99%,rgba(63,125,211,1) 100%);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(imagess/water-boilingl.gif);
+                 background-size: 50px 50px;}
+.wall          { background-image: url(imagess/metall.png); }
+.floater       { background: rgb(221, 217, 215); }
+.material   { background-image: url(imagess/material.png)}
+.wood          {background-image: url(imagess/wood.jpg);
+                background-size: 15px 15px;
+              }
+
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(imagess/clock.gif);
+          background-size: 17px 16px;
+          background-repeat: no-repeat ;
+      }
+.player { background-image: url(imagess/egg2.png);
+          background-size: 16px 27px;
+          background-repeat: no-repeat;
+          background-position: center bottom;}
+
+.stone {background-image: url(imagess/Stone.png);
+        background-size: 20px 15px;
+        background-repeat: no-repeat; }
+.feather{
+          background-image: url(imagess/feather.png);
+          background-size: 20px 20px;
+}
+.nest{ background-image: url(imagess/nest.png);
+        background-size: 40px 27px}
+
+.game {
+  overflow: hidden;
+  max-width: 800px;
+  max-height: 600px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url(imagess/eggdeath.png);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
